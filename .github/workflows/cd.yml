@@ -17,6 +17,7 @@ on:
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   # ──────────────────────────────────────────────
@@ -29,7 +30,7 @@ jobs:
       DEPLOY_ENV: ${{ github.event.inputs.environment || 'production' }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install Vercel CLI
         run: npm install -g vercel@latest
