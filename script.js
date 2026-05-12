@@ -73,7 +73,7 @@ function initCounters() {
         obs.unobserve(e.target);
       }
     });
-  }, { threshold: 0.5 });
+  }, { threshold: 0.01 });
   els.forEach(el => obs.observe(el));
 }
 
