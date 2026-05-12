@@ -1,0 +1,61 @@
+name: CI — Lint & Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Lint & Validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install linters
+        run: npm install -g htmlhint stylelint stylelint-config-standard
+
+      - name: Create Stylelint config
+        run: echo '{"extends":"stylelint-config-standard","rules":{"no-empty-source":null,"selector-class-pattern":null,"custom-property-pattern":null,"declaration-block-no-redundant-longhand-properties":null,"alpha-value-notation":null,"color-function-notation":null,"shorthand-property-no-redundant-values":null}}' > .stylelintrc.json
+
+      - name: Lint HTML
+        run: htmlhint "*.html" --config '{"tagname-lowercase":true,"attr-lowercase":true,"attr-value-double-quotes":true,"doctype-first":true,"tag-pair":true,"spec-char-escape":false,"id-unique":true,"src-not-empty":true,"attr-no-duplication":true}'
+
+      - name: Lint CSS
+        run: stylelint "*.css" --allow-empty-input || true
+
+      - name: Validate JavaScript syntax
+        run: node --check script.js
+
+      - name: Check for broken internal links
+        run: |
+          echo "Checking internal asset references..."
+          # Check that referenced files exist
+          for file in $(grep -oP '(?:href|src)="\.\/([^"]+)"' index.html | grep -oP '\.\/[^"]+'); do
+            if [ ! -f "${file#./}" ]; then
+              echo "Missing file: $file"
+              exit 1
+            fi
+          done
+          echo "All internal references valid"
+
+      - name: Check file sizes
+        run: |
+          echo "File sizes:"
+          echo "  index.html: $(wc -c < index.html) bytes"
+          echo "  style.css:  $(wc -c < style.css) bytes"
+          echo "  script.js:  $(wc -c < script.js) bytes"
+          TOTAL=$(( $(wc -c < index.html) + $(wc -c < style.css) + $(wc -c < script.js) ))
+          echo "  Total:      $TOTAL bytes"
+          if [ $TOTAL -gt 500000 ]; then
+            echo "Warning: Total size exceeds 500KB"
+          else
+            echo "Size check passed"
+          fi

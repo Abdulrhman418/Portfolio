@@ -1,0 +1,68 @@
+name: CD — Deploy to Vercel & Sync README
+
+on:
+  push:
+    branches: [main]
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+jobs:
+  # ──────────────────────────────────────────────
+  # Job 1: Deploy portfolio to Vercel (Production)
+  # ──────────────────────────────────────────────
+  deploy-vercel:
+    name: Deploy to Vercel
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel@latest
+
+      - name: Pull Vercel Environment
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Build Project
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Deploy to Production
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+  # ──────────────────────────────────────────────
+  # Job 2: Push readme.md to profile repo
+  #   Abdulrhman418/Abdulrhman418 → README.md
+  # ──────────────────────────────────────────────
+  sync-readme:
+    name: Sync README to Profile Repo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio repo
+        uses: actions/checkout@v4
+
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+        with:
+          repository: Abdulrhman418/Abdulrhman418
+          token: ${{ secrets.PROFILE_REPO_TOKEN }}
+          path: profile-repo
+
+      - name: Copy README to profile repo
+        run: cp readme.md profile-repo/README.md
+
+      - name: Commit & Push to profile repo
+        working-directory: profile-repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to README — skipping push."
+          else
+            git commit -m "docs: sync profile README from portfolio repo"
+            git push
+            echo "README pushed to Abdulrhman418/Abdulrhman418"
+          fi

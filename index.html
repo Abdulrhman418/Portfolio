@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Mokhtar — Cloud & DevOps Engineer</title>
+    <meta name="description" content="Abdelrahman Mokhtar — Cloud & DevOps Engineer with 5 certifications. Specializing in AWS, Terraform, Docker, Kubernetes, and CI/CD Automation.">
+    <meta name="keywords" content="Cloud Engineer, DevOps, AWS, Terraform, Docker, Kubernetes, CI/CD, GitHub Actions, Jenkins, Portfolio">
+    <meta name="author" content="Abdelrahman Mokhtar Mohamed">
+    <link rel="canonical" href="https://abdelrahmanmokhater.me">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Abdelrahman Mokhtar — Cloud & DevOps Engineer">
+    <meta property="og:description" content="Cloud & DevOps Engineer | 5 Certifications | AWS · Terraform · Docker · Kubernetes">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abdelrahmanmokhater.me">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Abdelrahman Mokhtar — Cloud & DevOps Engineer">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-noise"></div>
+    <div class="bg-gradient-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Home">
+                <div class="logo-mark">AM</div>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#training" class="nav-link">Training</a>
+                <a href="#contact" class="nav-link btn-nav">Contact Me</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-eyebrow">
+                    <span class="status-dot"></span>
+                    Available for Opportunities
+                </div>
+                <h1 class="hero-title">
+                    <span class="line-1">Cloud & DevOps</span>
+                    <span class="line-2">Engineer<span class="accent-dot">.</span></span>
+                </h1>
+                <p class="hero-subtitle">Abdelrahman Mokhtar Mohamed</p>
+                <p class="hero-desc">I architect scalable cloud infrastructure on AWS and automate everything with Terraform, Docker, Kubernetes, and CI/CD pipelines. Currently studying Computer Engineering at Shoubra Faculty of Engineering.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary" id="btn-view-work">
+                        <i data-lucide="briefcase" class="btn-icon"></i>
+                        View My Work
+                    </a>
+                    <a href="./AbdelrahmanMokhtarCV.pdf" download class="btn btn-outline" id="btn-download-cv">
+                        <i data-lucide="download" class="btn-icon"></i>
+                        Download CV
+                    </a>
+                </div>
+                <div class="hero-metrics">
+                    <div class="metric">
+                        <span class="metric-value" data-count="5">0</span>
+                        <span class="metric-label">Certifications</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric">
+                        <span class="metric-value" data-count="23">0</span>
+                        <span class="metric-label">Repositories</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric">
+                        <span class="metric-value" data-count="4">0</span>
+                        <span class="metric-label">Projects</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="terminal-window">
+                    <div class="terminal-chrome">
+                        <div class="traffic-lights"><span></span><span></span><span></span></div>
+                        <span class="terminal-tab">abdulrahman@cloud ~ </span>
+                    </div>
+                    <div class="terminal-screen">
+                        <div class="term-line completed"><span class="prompt">❯</span> terraform init<span class="term-ok"> ✓</span></div>
+                        <div class="term-line completed"><span class="prompt">❯</span> terraform plan<span class="term-ok"> ✓ 12 to add</span></div>
+                        <div class="term-line completed"><span class="prompt">❯</span> terraform apply -auto-approve<span class="term-ok"> ✓</span></div>
+                        <div class="term-line completed"><span class="prompt">❯</span> docker build -t app:v2.1 .<span class="term-ok"> ✓</span></div>
+                        <div class="term-line completed"><span class="prompt">❯</span> kubectl apply -f k8s/<span class="term-ok"> ✓ 3 configured</span></div>
+                        <div class="term-line active">
+                            <span class="prompt">❯</span>
+                            <span class="typed-text" id="typedText"></span><span class="caret">▊</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint" aria-hidden="true">
+            <i data-lucide="chevrons-down" class="scroll-icon"></i>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-label"><span>01</span> About</div>
+            <div class="about-layout">
+                <div class="about-text">
+                    <h2>Building reliable infrastructure<br>at cloud scale<span class="accent-dot">.</span></h2>
+                    <p>I'm a Cloud & DevOps Engineer based in Banha, Egypt, with hands-on experience designing and deploying production-grade architectures on AWS. My toolkit includes Terraform for IaC, Docker & Kubernetes for containerization, and GitHub Actions & Jenkins for CI/CD automation.</p>
+                    <p>With 4 AWS and 1 Huawei certification, I bring a strong foundation in cloud-native design patterns, cost optimization, and operational excellence. I'm currently deepening my expertise in advanced Kubernetes and pursuing AWS Professional certifications.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <i data-lucide="map-pin" class="info-icon"></i>
+                        <div><strong>Location</strong><span>Banha, Qalyubia, Egypt</span></div>
+                    </div>
+                    <div class="info-card">
+                        <i data-lucide="graduation-cap" class="info-icon"></i>
+                        <div><strong>Education</strong><span>Computer Engineering, Shoubra (2027)</span></div>
+                    </div>
+                    <div class="info-card">
+                        <i data-lucide="target" class="info-icon"></i>
+                        <div><strong>Focus</strong><span>AWS · Terraform · K8s · CI/CD</span></div>
+                    </div>
+                    <div class="info-card">
+                        <i data-lucide="heart-handshake" class="info-icon"></i>
+                        <div><strong>Open To</strong><span>Internships · Collaborations · OSS</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section section-dark" id="certifications">
+        <div class="container">
+            <div class="section-label"><span>02</span> Certifications</div>
+            <h2 class="section-heading">Professional Credentials<span class="accent-dot">.</span></h2>
+            <div class="cert-grid">
+                <div class="cert-card aws">
+                    <div class="cert-provider-badge">AWS</div>
+                    <h3>CloudOps Engineer – Associate</h3>
+                    <p>Operations, monitoring & managing AWS workloads at scale</p>
+                    <span class="cert-year-tag">2026</span>
+                </div>
+                <div class="cert-card aws">
+                    <div class="cert-provider-badge">AWS</div>
+                    <h3>AI Practitioner</h3>
+                    <p>AI/ML fundamentals on the AWS platform</p>
+                    <span class="cert-year-tag">2026</span>
+                </div>
+                <div class="cert-card aws">
+                    <div class="cert-provider-badge">AWS</div>
+                    <h3>Solutions Architect – Associate</h3>
+                    <p>Designing distributed systems & architectures on AWS</p>
+                    <span class="cert-year-tag">2025</span>
+                </div>
+                <div class="cert-card aws">
+                    <div class="cert-provider-badge">AWS</div>
+                    <h3>Cloud Practitioner</h3>
+                    <p>Cloud fundamentals & AWS core services</p>
+                    <span class="cert-year-tag">2025</span>
+                </div>
+                <div class="cert-card huawei">
+                    <div class="cert-provider-badge">Huawei</div>
+                    <h3>HCCDA – Technical Essentials</h3>
+                    <p>Cloud development architecture technical fundamentals</p>
+                    <span class="cert-year-tag">2025</span>
+                </div>
+            </div>
+            <div class="cert-cta">
+                <a href="https://www.credly.com/users/abdulrahman-mokhtar-mohamed" target="_blank" rel="noopener" class="btn btn-outline" id="btn-credly">
+                    <i data-lucide="award" class="btn-icon"></i>
+                    Verify on Credly
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-label"><span>03</span> Tech Stack</div>
+            <h2 class="section-heading">Skills & Technologies<span class="accent-dot">.</span></h2>
+            <div class="skills-columns">
+                <div class="skill-group">
+                    <h3><i data-lucide="cloud"></i> Cloud Platforms</h3>
+                    <div class="pills">
+                        <span class="pill" style="--c:#FF9900">AWS</span>
+                        <span class="pill" style="--c:#CF0A2C">Huawei Cloud</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i data-lucide="settings"></i> DevOps & IaC</h3>
+                    <div class="pills">
+                        <span class="pill" style="--c:#7B42BC">Terraform</span>
+                        <span class="pill" style="--c:#2496ED">Docker</span>
+                        <span class="pill" style="--c:#326CE5">Kubernetes</span>
+                        <span class="pill" style="--c:#2088FF">GitHub Actions</span>
+                        <span class="pill" style="--c:#D24939">Jenkins</span>
+                        <span class="pill" style="--c:#F05032">Git</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i data-lucide="terminal"></i> Linux & Networking</h3>
+                    <div class="pills">
+                        <span class="pill" style="--c:#FCC624">Linux</span>
+                        <span class="pill" style="--c:#EE0000">Red Hat</span>
+                        <span class="pill" style="--c:#4EAA25">Bash</span>
+                        <span class="pill" style="--c:#1BA0D7">Cisco CCNA</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i data-lucide="code-2"></i> Languages</h3>
+                    <div class="pills">
+                        <span class="pill" style="--c:#3776AB">Python</span>
+                        <span class="pill" style="--c:#00599C">C++</span>
+                        <span class="pill" style="--c:#ED8B00">Java</span>
+                        <span class="pill" style="--c:#F7DF1E">JavaScript</span>
+                        <span class="pill" style="--c:#E34F26">HTML5</span>
+                        <span class="pill" style="--c:#1572B6">CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i data-lucide="database"></i> Databases</h3>
+                    <div class="pills">
+                        <span class="pill" style="--c:#CC2927">SQL Server</span>
+                        <span class="pill" style="--c:#4053D6">DynamoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-dark" id="projects">
+        <div class="container">
+            <div class="section-label"><span>04</span> Portfolio</div>
+            <h2 class="section-heading">Featured Projects<span class="accent-dot">.</span></h2>
+            <div class="projects-list">
+                <article class="project" id="project-serverless-cafe">
+                    <div class="project-number">01</div>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="tag-cloud">Serverless</span>
+                            <span class="tag-cloud">AWS</span>
+                            <span class="tag-cloud">Terraform</span>
+                        </div>
+                        <h3>Serverless Café Orders Platform</h3>
+                        <p>Production-ready serverless backend using AWS Lambda, API Gateway, and DynamoDB. Full infrastructure automated with Terraform. Static frontend on S3 — scalable and cost-efficient.</p>
+                        <div class="project-stack">
+                            <span>Lambda</span><span>API GW</span><span>DynamoDB</span><span>Terraform</span><span>S3</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Abdulrhman418/Serverless-Cafe-Orders-Platform" target="_blank" rel="noopener" class="project-action" aria-label="View project on GitHub">
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+                </article>
+                <article class="project" id="project-scalable-env">
+                    <div class="project-number">02</div>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="tag-cloud">Infrastructure</span>
+                            <span class="tag-cloud">HA</span>
+                            <span class="tag-cloud">Terraform</span>
+                        </div>
+                        <h3>Scalable & Highly Available Environment</h3>
+                        <p>Multi-AZ architecture with EC2 Auto Scaling, Application Load Balancers, and RDS. Fault-tolerant, monitored with CloudWatch, and fully provisioned via Terraform.</p>
+                        <div class="project-stack">
+                            <span>EC2</span><span>ASG</span><span>ALB</span><span>RDS</span><span>CloudWatch</span><span>Terraform</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Abdulrhman418/Creating-a-Scalable-and-Highly-Available-Environment" target="_blank" rel="noopener" class="project-action" aria-label="View project on GitHub">
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+                </article>
+                <article class="project" id="project-docker-app">
+                    <div class="project-number">03</div>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="tag-cloud">Docker</span>
+                            <span class="tag-cloud">Multi-tier</span>
+                        </div>
+                        <h3>Three-Tier Docker Application</h3>
+                        <p>Multi-container application with Web, Application, and Database tiers. Custom Docker networking, persistent volumes, and full orchestration via Docker Compose.</p>
+                        <div class="project-stack">
+                            <span>Docker</span><span>Compose</span><span>Networking</span><span>Volumes</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Abdulrhman418/Three-Tier-Docker-Application" target="_blank" rel="noopener" class="project-action" aria-label="View project on GitHub">
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+                </article>
+                <article class="project" id="project-s3-manager">
+                    <div class="project-number">04</div>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="tag-cloud">Python</span>
+                            <span class="tag-cloud">Boto3</span>
+                            <span class="tag-cloud">Automation</span>
+                        </div>
+                        <h3>AWS S3 Bucket Manager</h3>
+                        <p>Robust CLI tool for AWS S3 management with Boto3. Features regional filtering, tag/ACL-based search, automated bucket operations, and interactive menu-driven interface.</p>
+                        <div class="project-stack">
+                            <span>Python</span><span>Boto3</span><span>AWS S3</span><span>CLI</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Abdulrhman418/boto3-s3-manager" target="_blank" rel="noopener" class="project-action" aria-label="View project on GitHub">
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+                </article>
+            </div>
+            <div class="section-cta">
+                <a href="https://github.com/Abdulrhman418?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline" id="btn-all-repos">
+                    <i data-lucide="github" class="btn-icon"></i>
+                    All 23 Repositories
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training -->
+    <section class="section" id="training">
+        <div class="container">
+            <div class="section-label"><span>05</span> Education</div>
+            <h2 class="section-heading">Training & Programs<span class="accent-dot">.</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Cloud Architect Training</h3>
+                        <span class="timeline-org">NTI & ITIDA</span>
+                        <p>Designing and implementing enterprise cloud architecture solutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Cloud Computing Training</h3>
+                        <span class="timeline-org">NTI & Huawei</span>
+                        <p>Cloud computing fundamentals and Huawei Cloud platform technologies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Infrastructure, Systems & Cybersecurity</h3>
+                        <span class="timeline-org">MCIT</span>
+                        <p>Infrastructure fundamentals, systems administration, and security essentials.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Linux Administration</h3>
+                        <span class="timeline-org">NTI — Digital Egypt Youth Program</span>
+                        <p>Linux system administration, shell scripting, and server management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="section-label"><span>06</span> Contact</div>
+            <div class="contact-layout">
+                <div class="contact-text">
+                    <h2>Let's build something<br>together<span class="accent-dot">.</span></h2>
+                    <p>I'm always open to discussing cloud architecture, DevOps workflows, and new opportunities. Whether it's an internship, collaboration, or open-source contribution — let's connect.</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:abdulrhamanmokhtar399@gmail.com" class="contact-row" id="contact-email">
+                        <i data-lucide="mail"></i>
+                        <div><strong>Email</strong><span>abdulrhamanmokhtar399@gmail.com</span></div>
+                        <i data-lucide="arrow-up-right" class="arrow"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abdulrhaman-mokhtar-moh1amed/" target="_blank" rel="noopener" class="contact-row" id="contact-linkedin">
+                        <i data-lucide="linkedin"></i>
+                        <div><strong>LinkedIn</strong><span>abdulrhaman-mokhtar-moh1amed</span></div>
+                        <i data-lucide="arrow-up-right" class="arrow"></i>
+                    </a>
+                    <a href="https://github.com/Abdulrhman418" target="_blank" rel="noopener" class="contact-row" id="contact-github">
+                        <i data-lucide="github"></i>
+                        <div><strong>GitHub</strong><span>Abdulrhman418</span></div>
+                        <i data-lucide="arrow-up-right" class="arrow"></i>
+                    </a>
+                    <a href="https://www.credly.com/users/abdulrahman-mokhtar-mohamed" target="_blank" rel="noopener" class="contact-row" id="contact-credly">
+                        <i data-lucide="award"></i>
+                        <div><strong>Credly</strong><span>Verified Badges & Certifications</span></div>
+                        <i data-lucide="arrow-up-right" class="arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Abdelrahman Mokhtar. Deployed via CI/CD.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/Abdulrhman418" target="_blank" rel="noopener" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="https://www.linkedin.com/in/abdulrhaman-mokhtar-moh1amed/" target="_blank" rel="noopener" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:abdulrhamanmokhtar399@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
