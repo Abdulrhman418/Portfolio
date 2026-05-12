@@ -1,199 +1,193 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,50:00d4ff,100:6d28d9&height=200&section=header&text=&fontSize=1" width="100%"/>
-
-# Abdelrahman Mokhtar Mohamed
-
-### Cloud & DevOps Engineer
-
-[![Portfolio](https://img.shields.io/badge/🌐_abdelrahmanmokhater.me-00d4ff?style=for-the-badge&logoColor=white)](https://abdelrahmanmokhater.me)
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrhaman-mokhtar-moh1amed/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abdulrhman418)
-[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/abdulrahman-mokhtar-mohamed)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:abdulrhamanmokhtar399@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-09090b?style=flat-square&logo=vercel&logoColor=white)](https://abdelrahmanmokhater.me)
-
-<br>
-
-*Building scalable cloud infrastructure & automating everything — one pipeline at a time.*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Abdelrahman%20Mokhtar&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Cloud%20Engineer%20%7C%20DevOps%20Engineer&descAlignY=55&descSize=20" width="100%"/>
 
 </div>
 
-<br>
+<div align="center">
 
-## 👤 About
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=☁️+Cloud+%26+DevOps+Engineer;🚀+4+AWS+%26+1+Huawei+Certifications;🐳+Docker+%7C+Kubernetes+%7C+Terraform;⚙️+CI%2FCD+%7C+GitHub+Actions+%7C+Jenkins;📍+Banha%2C+Egypt)](https://git.io/typing-svg)
 
-> Cloud & DevOps Engineer based in **Banha, Egypt** 🇪🇬 with a passion for designing production-grade cloud architectures and automating infrastructure at scale. Currently pursuing **Computer Engineering** at Shoubra Faculty of Engineering **(Class of 2027)**.
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-abdelrahmanmokhater.me-00D9FF?style=for-the-badge&logoColor=white)](https://abdelrahmanmokhater.me)
 
-- 🏗️ &nbsp; Specializing in **AWS Cloud Architecture** & **Infrastructure as Code**
-- 🐳 &nbsp; Containerizing & orchestrating with **Docker** & **Kubernetes**
-- ⚙️ &nbsp; Building CI/CD pipelines with **GitHub Actions** & **Jenkins**
-- 📜 &nbsp; Holding **5 Cloud Certifications** (4 AWS + 1 Huawei)
-- 📖 &nbsp; Currently learning **Advanced Kubernetes** & preparing for **AWS Professional**
-- 🤝 &nbsp; Open to **Internships**, **Collaborations** & **Open Source**
+</div>
 
-<br>
+---
+
+## 👨‍💻 About Me
+
+```yaml
+name: Abdelrahman Mokhtar Mohamed
+location: Banha, Qalyubia, Egypt 🇪🇬
+education: Computer Engineering @ Shoubra Faculty of Engineering (2027)
+portfolio: https://abdelrahmanmokhater.me
+roles:
+  - Cloud Engineer
+  - DevOps Engineer
+focus:
+  - Cloud Architecture (AWS)
+  - Infrastructure as Code (Terraform)
+  - Containerization (Docker / Kubernetes)
+  - CI/CD Automation
+currently_learning: Advanced Kubernetes & AWS professional
+open_to: Internships | Collaborations | Open Source
+```
+
+---
 
 ## 🏆 Certifications
 
 <div align="center">
 
-| Year | Certification | Provider |
-|:----:|:-------------|:--------:|
-| 2026 | **CloudOps Engineer — Associate** | ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) |
-| 2026 | **AI Practitioner** | ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) |
-| 2025 | **Solutions Architect — Associate (SAA)** | ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) |
-| 2025 | **Cloud Practitioner** | ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) |
-| 2025 | **HCCDA — Technical Essentials** | ![Huawei](https://img.shields.io/badge/Huawei-CF0A2C?style=flat-square&logo=huawei&logoColor=white) |
-
-[![Verify on Credly](https://img.shields.io/badge/Verify_All_Badges_→-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/abdulrahman-mokhtar-mohamed)
+| Badge | Certification | Year |
+|:---:|---|:---:|
+| ![Huawei](https://img.shields.io/badge/Huawei-HCCDA_Technical_Essentials-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white) | Huawei HCCDA – Technical Essentials | 2025 |
+| ![AWS](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified Cloud Practitioner | 2025 |
+| ![AWS](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified Solutions Architect – Associate (SAA) | 2025 |
+| ![AWS](https://img.shields.io/badge/AWS-AI_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified AI Practitioner | 2026 |
+| ![AWS](https://img.shields.io/badge/AWS-CloudOps_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified CloudOps Engineer – Associate | 2026 |
 
 </div>
 
-<br>
+---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Skills
 
-<div align="center">
+### ☁️ Cloud Platforms
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![Huawei Cloud](https://img.shields.io/badge/Huawei_Cloud-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white)
 
-**Cloud & DevOps** &nbsp;&nbsp;
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![Huawei Cloud](https://img.shields.io/badge/Huawei_Cloud-CF0A2C?style=flat-square&logo=huawei&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+### ⚙️ DevOps & Automation
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**Linux & Networking** &nbsp;&nbsp;
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=flat-square&logo=redhat&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Cisco CCNA](https://img.shields.io/badge/CCNA-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
+### 🐧 Linux & Networking
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco_CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 
-**Languages** &nbsp;&nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+### 💻 Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**Databases** &nbsp;&nbsp;
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+### 🗄️ Databases & Storage
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
 
-</div>
-
-<br>
+---
 
 ## 🚀 Featured Projects
 
-<details open>
-<summary><b>☁️ Serverless Cafe Orders Platform</b> — AWS + Terraform</summary>
-<br>
+<div align="center">
 
-> Production-ready serverless backend using **AWS Lambda**, **API Gateway**, and **DynamoDB**. Infrastructure fully managed with **Terraform**. Frontend hosted on **S3** — scalable, cost-efficient, and production-ready.
+### ☁️ Serverless Café Orders Platform — AWS + Terraform
+[![Serverless](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Serverless-Cafe-Orders-Platform)
+
+> Serverless backend using **AWS Lambda**, **API Gateway**, and **DynamoDB**.  
+> Infrastructure fully managed with **Terraform**. Frontend hosted on **S3**.  
+> Scalable, cost-efficient, and production-ready architecture.
 
 `AWS Lambda` `API Gateway` `DynamoDB` `Terraform` `S3` `Serverless`
 
-[![View Project](https://img.shields.io/badge/View_on_GitHub_→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Serverless-Cafe-Orders-Platform)
+---
 
-</details>
+### 🏗️ Scalable & Highly Available Environment — AWS + Terraform
+[![HA Env](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Creating-a-Scalable-and-Highly-Available-Environment)
 
-<details open>
-<summary><b>🏗️ Scalable & Highly Available Environment</b> — AWS + Terraform</summary>
-<br>
-
-> Multi-AZ architecture with **EC2 Auto Scaling**, **Application Load Balancers**, and **RDS**. Fault-tolerant, highly available, and monitored with **CloudWatch**. Fully provisioned via **Terraform**.
+> Multi-AZ architecture with **EC2 Auto Scaling**, **Load Balancers**, and **RDS**.  
+> Fault-tolerant, highly available, monitored with **CloudWatch**.
 
 `EC2` `Auto Scaling` `ALB` `RDS` `Multi-AZ` `CloudWatch` `Terraform`
 
-[![View Project](https://img.shields.io/badge/View_on_GitHub_→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Creating-a-Scalable-and-Highly-Available-Environment)
+---
 
-</details>
+### 🐳 Three-Tier Docker Application
+[![Docker App](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Three-Tier-Docker-Application)
 
-<details open>
-<summary><b>🐳 Three-Tier Docker Application</b></summary>
-<br>
-
-> Multi-container application with **Web**, **Application**, and **Database** tiers. Custom Docker networking, persistent volumes, and full orchestration with **Docker Compose**.
+> Multi-container app with **Web**, **App**, and **Database** tiers.  
+> Container networking, volume management, and orchestration with **Docker Compose**.
 
 `Docker` `Docker Compose` `Networking` `Volumes` `Multi-tier`
 
-[![View Project](https://img.shields.io/badge/View_on_GitHub_→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Three-Tier-Docker-Application)
+---
 
-</details>
+### 🐍 AWS S3 Bucket Manager — Python + Boto3
+[![Boto3 S3 Manager](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/boto3-s3-manager)
 
-<details open>
-<summary><b>🐍 AWS S3 Bucket Manager</b> — Python + Boto3</summary>
-<br>
-
-> Robust CLI tool for AWS S3 management using **Boto3**. Features advanced regional management, search/filtering by tags and ACLs, and automated bucket operations.
+> A robust Python script to manage AWS S3 buckets using the **Boto3** library.  
+> Features advanced regional management, search/filtering by tags and ACLs, and automated bucket operations.
 
 `Python` `Boto3` `AWS S3` `Automation` `CloudOps`
 
-[![View Project](https://img.shields.io/badge/View_on_GitHub_→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abdulrhman418/boto3-s3-manager)
+</div>
 
-</details>
+---
+
+## 📊 GitHub Statistics
 
 <div align="center">
 
-<br>
-
-[![All Repositories](https://img.shields.io/badge/View_All_23_Repositories_→-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418?tab=repositories)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdulrhman418&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulrhman418&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
 </div>
-
-<br>
-
-## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdulrhman418&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=09090b&title_color=00d4ff&icon_color=00d4ff&text_color=a1a1aa&ring_color=6d28d9"/>
-&nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulrhman418&layout=compact&langs_count=8&hide_border=true&bg_color=09090b&title_color=00d4ff&text_color=a1a1aa"/>
-
-<br><br>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Abdulrhman418&hide_border=true&background=09090b&ring=00d4ff&fire=6d28d9&currStreakLabel=00d4ff&sideLabels=a1a1aa&currStreakNum=fafafa&sideNums=fafafa&dates=52525b)](https://git.io/streak-stats)
-
-<br>
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abdulrhman418&bg_color=09090b&color=a1a1aa&line=00d4ff&point=6d28d9&area=true&area_color=00d4ff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Abdulrhman418&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
-<br>
+<div align="center">
 
-## 🎓 Training
+[![trophy](https://github-profile-trophy.vercel.app/?username=Abdulrhman418&theme=tokyonight&no-frame=true&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
-| | Program | Organization |
-|:-:|:--------|:------------|
-| 🏛️ | Cloud Architect Training | **NTI & ITIDA** |
-| 🌐 | Cloud Computing Training | **NTI & Huawei** |
-| 🔐 | Infrastructure, Systems & Cybersecurity Fundamentals | **MCIT** |
-| 🐧 | Linux Administration Training | **NTI — Digital Egypt Youth** |
+</div>
 
-<br>
+---
+
+## 📈 Activity Graph
+
+[![Abdulrahman's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abdulrhman418&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+## 🎓 Trainings
+
+- 🏛️ **Cloud Architect Training** — NTI & ITIDA
+- 🌐 **Cloud Computing Training** — NTI & Huawei
+- 🔐 **Infrastructure, Systems & Cybersecurity Fundamentals** — MCIT
+- 🐧 **Linux Administration Training** — NTI, Digital Egypt Youth Program
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=vercel&logoColor=white)](https://abdelrahmanmokhater.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrhaman-mokhtar-moh1amed/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418)
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/abdulrahman-mokhtar-mohamed)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulrhamanmokhtar399@gmail.com)
+
+</div>
 
 ---
 
 <div align="center">
 
-### 🌐 Explore My Full Portfolio
+![Profile Views](https://komarev.com/ghpvc/?username=Abdulrhman418&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS)
 
-[![abdelrahmanmokhater.me](https://img.shields.io/badge/abdelrahmanmokhater.me-00d4ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=09090b)](https://abdelrahmanmokhater.me)
-
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Abdulrhman418&color=00d4ff&style=flat-square&label=Profile+Views)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,50:00d4ff,100:6d28d9&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
 
 </div>
