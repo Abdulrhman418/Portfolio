@@ -61,10 +61,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout portfolio repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Checkout profile repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: Abdulrhman418/Abdulrhman418
           token: ${{ secrets.PROFILE_REPO_TOKEN }}
