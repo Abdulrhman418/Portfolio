@@ -66,27 +66,24 @@ function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
 /* ===== Counter ===== */
 function initCounters() {
   const els = document.querySelectorAll('.metric-value');
-  const obs = new IntersectionObserver(entries => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        countUp(e.target);
-        obs.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.01 });
-  els.forEach(el => obs.observe(el));
+  // Start counters after a short delay for visual impact
+  setTimeout(() => {
+    els.forEach(el => countUp(el));
+  }, 400);
 }
 
 function countUp(el) {
   const end = +el.dataset.count;
-  const dur = 1200;
-  const t0 = performance.now();
-  (function tick(now) {
-    const p = Math.min((now - t0) / dur, 1);
-    el.textContent = Math.floor(p * p * (3 - 2 * p) * end);
+  const dur = 1400;
+  let start = null;
+  function tick(ts) {
+    if (!start) start = ts;
+    const p = Math.min((ts - start) / dur, 1);
+    const eased = p * p * (3 - 2 * p);
+    el.textContent = Math.round(eased * end);
     if (p < 1) requestAnimationFrame(tick);
-    else el.textContent = end;
-  })(t0);
+  }
+  requestAnimationFrame(tick);
 }
 
 /* ===== Scroll Reveal ===== */
