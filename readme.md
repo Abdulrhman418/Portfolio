@@ -6,9 +6,10 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=☁️+Cloud+%26+DevOps+Engineer;🚀+4+AWS+%26+1+Huawei+Certifications;🐳+Docker+%7C+Kubernetes+%7C+Terraform;⚙️+CI%2FCD+%7C+GitHub+Actions+%7C+Jenkins;📍+Banha%2C+Egypt)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=☁️+Cloud+%26+DevOps+Engineer;🚀+7+Cloud+Certifications;🐳+Docker+%7C+Kubernetes+%7C+Helm;⚙️+Terraform+%7C+Argo+CD+%7C+CI%2FCD;📍+Banha%2C+Egypt)](https://git.io/typing-svg)
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-abdelrahmanmokhater.me-00D9FF?style=for-the-badge&logoColor=white)](https://abdelrahmanmokhater.me)
+[![Download CV](https://img.shields.io/badge/Download-CV-00D9FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://abdelrahmanmokhater.me/AbdelrahmanMokhtarCV.pdf)
 
 </div>
 
@@ -25,12 +26,12 @@ roles:
   - Cloud Engineer
   - DevOps Engineer
 focus:
-  - Cloud Architecture (AWS)
+  - Cloud Architecture (AWS / Google Cloud)
   - Infrastructure as Code (Terraform)
   - Containerization (Docker / Kubernetes)
-  - CI/CD Automation
-currently_learning: Advanced Kubernetes & AWS professional
-open_to: Internships | Collaborations | Open Source
+  - CI/CD & GitOps (GitHub Actions / Argo CD)
+certifications: 7 cloud certifications (5 AWS, 1 Google Cloud, 1 Huawei)
+open_to: Cloud Engineer / DevOps Engineer internships and junior roles
 ```
 
 ---
@@ -41,11 +42,13 @@ open_to: Internships | Collaborations | Open Source
 
 | Badge | Certification | Year |
 |:---:|---|:---:|
-| ![Huawei](https://img.shields.io/badge/Huawei-HCCDA_Technical_Essentials-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white) | Huawei HCCDA – Technical Essentials | 2025 |
-| ![AWS](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified Cloud Practitioner | 2025 |
-| ![AWS](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified Solutions Architect – Associate (SAA) | 2025 |
-| ![AWS](https://img.shields.io/badge/AWS-AI_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified AI Practitioner | 2026 |
+| ![Google Cloud](https://img.shields.io/badge/Google_Cloud-Professional_Cloud_Architect-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white) | Google Cloud Certified – Professional Cloud Architect | 2026 |
+| ![AWS](https://img.shields.io/badge/AWS-Solutions_Architect_Professional-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified Solutions Architect – Professional | 2026 |
 | ![AWS](https://img.shields.io/badge/AWS-CloudOps_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified CloudOps Engineer – Associate | 2026 |
+| ![AWS](https://img.shields.io/badge/AWS-AI_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified AI Practitioner | 2026 |
+| ![AWS](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified Solutions Architect – Associate (SAA) | 2025 |
+| ![AWS](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) | AWS Certified Cloud Practitioner | 2025 |
+| ![Huawei](https://img.shields.io/badge/Huawei-HCCDA_Technical_Essentials-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white) | Huawei HCCDA – Technical Essentials | 2025 |
 
 </div>
 
@@ -55,14 +58,21 @@ open_to: Internships | Collaborations | Open Source
 
 ### ☁️ Cloud Platforms
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Huawei Cloud](https://img.shields.io/badge/Huawei_Cloud-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white)
 
 ### ⚙️ DevOps & Automation
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white)
+![AWS CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### 🐧 Linux & Networking
@@ -75,6 +85,7 @@ open_to: Internships | Collaborations | Open Source
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -89,14 +100,23 @@ open_to: Internships | Collaborations | Open Source
 
 <div align="center">
 
-### ☁️ Serverless Café Orders Platform — AWS + Terraform
-[![Serverless](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Serverless-Cafe-Orders-Platform)
+### 🎯 SkillGap — Job-Market Skill-Gap Advisor
+[![SkillGap](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeyadbilal/SkillGap)
 
-> Serverless backend using **AWS Lambda**, **API Gateway**, and **DynamoDB**.  
-> Infrastructure fully managed with **Terraform**. Frontend hosted on **S3**.  
-> Scalable, cost-efficient, and production-ready architecture.
+> Team project built with **Node.js**, **Express**, **PostgreSQL**, and **Redis**.
+> Handled DevOps: multi-stage Docker build, Helm packaging, Argo CD GitOps delivery, and GitHub Actions CI/CD.
 
-`AWS Lambda` `API Gateway` `DynamoDB` `Terraform` `S3` `Serverless`
+`Node.js` `PostgreSQL` `Redis` `Docker` `Helm` `Argo CD` `GitHub Actions`
+
+---
+
+### 🔨 Real-Time Auction System on AWS EKS
+[![Auction System](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ashrafmuhmed/real-time-auction-system)
+
+> Team project deployed to **Amazon EKS**.
+> Handled containerization, deployment, and automated CI/CD for a scalable real-time bidding application.
+
+`AWS EKS` `Kubernetes` `Docker` `CI/CD`
 
 ---
 
@@ -110,23 +130,23 @@ open_to: Internships | Collaborations | Open Source
 
 ---
 
-### 🐳 Three-Tier Docker Application
-[![Docker App](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Three-Tier-Docker-Application)
+### ☁️ Serverless Café Orders Platform — AWS + Terraform
+[![Serverless](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/Serverless-Caf-Orders-Platform-AWS-Terraform-)
 
-> Multi-container app with **Web**, **App**, and **Database** tiers.  
-> Container networking, volume management, and orchestration with **Docker Compose**.
+> Serverless backend using **AWS Lambda**, **API Gateway**, and **DynamoDB**.
+> Infrastructure managed with **Terraform** and frontend hosted on **S3**.
 
-`Docker` `Docker Compose` `Networking` `Volumes` `Multi-tier`
+`AWS Lambda` `API Gateway` `DynamoDB` `Terraform` `S3` `Serverless`
 
 ---
 
-### 🐍 AWS S3 Bucket Manager — Python + Boto3
-[![Boto3 S3 Manager](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/boto3-s3-manager)
+### 🐳 Three-Tier Docker Application
+[![Docker App](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdulrhman418/dockerproject-3_tier)
 
-> A robust Python script to manage AWS S3 buckets using the **Boto3** library.  
-> Features advanced regional management, search/filtering by tags and ACLs, and automated bucket operations.
+> Multi-container app with **Web**, **App**, and **Database** tiers.
+> Container networking, persistent volumes, and orchestration with **Docker Compose**.
 
-`Python` `Boto3` `AWS S3` `Automation` `CloudOps`
+`Docker` `Docker Compose` `Networking` `Volumes` `Multi-tier`
 
 </div>
 
@@ -163,10 +183,11 @@ open_to: Internships | Collaborations | Open Source
 
 ## 🎓 Trainings
 
-- 🏛️ **Cloud Architect Training** — NTI & ITIDA
-- 🌐 **Cloud Computing Training** — NTI & Huawei
-- 🔐 **Infrastructure, Systems & Cybersecurity Fundamentals** — MCIT
-- 🐧 **Linux Administration Training** — NTI, Digital Egypt Youth Program
+- 💻 **Web Development using .NET** — ITI (Aug–Sep 2026)
+- 🐧 **Linux Administration** — NTI, Digital Egypt Youth Program (Oct–Nov 2025)
+- 🌐 **Cloud Computing Track** — NTI & Huawei Egyptian Talent Academy (Aug–Sep 2025)
+- 🔐 **Infrastructure, Systems, Applications and Cybersecurity Fundamentals** — MCIT (Jul–Aug 2025)
+- 🏛️ **Cloud Architect Summer Training** — NTI & ITIDA (Jun–Jul 2025)
 
 ---
 
