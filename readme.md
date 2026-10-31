@@ -30,6 +30,7 @@ focus:
   - Infrastructure as Code (Terraform)
   - Containerization (Docker / Kubernetes)
   - CI/CD & GitOps (GitHub Actions / Argo CD)
+  - Backend Development (Node.js / .NET)
 certifications: 7 cloud certifications (5 AWS, 1 Google Cloud, 1 Huawei)
 open_to: Cloud Engineer / DevOps Engineer internships and junior roles
 ```
@@ -75,6 +76,15 @@ open_to: Cloud Engineer / DevOps Engineer internships and junior roles
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+### 🧩 Backend & .NET
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity_Framework-68217A?style=for-the-badge&logo=dotnet&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-00599C?style=for-the-badge)
+![Microservices](https://img.shields.io/badge/Microservices-339933?style=for-the-badge)
+
 ### 🐧 Linux & Networking
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
@@ -93,6 +103,15 @@ open_to: Cloud Engineer / DevOps Engineer internships and junior roles
 ### 🗄️ Databases & Storage
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### ☁️ Cloud Architecture & Security
+- AWS Well-Architected Framework, high availability, disaster recovery, and multi-region / multi-AZ design
+- Cloud migration strategies (6 Rs), IAM, governance, cloud networking, KMS, and CloudTrail
+
+### 🧠 AI & Machine Learning
+- Machine learning fundamentals: supervised and unsupervised learning, and neural networks
 
 ---
 
